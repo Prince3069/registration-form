@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: aliceblue;
+}
+.reg-Form{
+    justify-content: center;
+    text-align: center;
+    background-color: antiquewhite;
+    color: brown;
+    width: 500px;
+    margin-left: 400px;
+}
+
+.form{
+    justify-content: center;
+    text-align: left;
+    background-color: grey;
+    color: rgb(13, 13, 16);
+    width: 500px;
+    height: 550px;
+   margin-left: 400px;
+   padding: 10px; 
+   font-size: 17px
+}
+
+.footer{
+    margin-left: 400px;
+    height: 30px;
+    background-color:antiquewhite;
+    color: black;
+    margin-right: 298px;
+    font-size: 17px;
+    border-bottom: 10px;
+}

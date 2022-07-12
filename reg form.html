@@ -1,0 +1,92 @@
+<!--My first registration form that would promt the user to input his name,age,email and other necessary input-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="form.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="reg-Form">
+            <h1>Registration Form</h1>
+
+        </div>
+        <div id="fine">
+            <!--The form tag is used to create a form-->
+            <form>
+                <div class="form">
+                <label for="name">Enter your name:</label><!--The label tag is used to display what they would input-->
+                <input type="text" id="name" placeholder="Enter your name" required>
+                <br><br>
+                <label for="name">Enter your age:</label>
+                <input type="number" id="age" placeholder="Enter your age" min="18" max="50" required>
+                <br><br>
+
+                <label for="name">Enter your email:</label>
+                <!--The input tag is used in prompting inputs from a user-->
+                <input type="email" id="email" placeholder="abc@gmail.com"required>
+
+                <br><br>
+                <label for="name">Enter your country:</label>
+                <input type="text" id="country" placeholder="Enter your country" required>
+
+                <br><br>
+                <label for="name">Choose file:</label>
+                <input type="file" id="file" placeholder="Choose file" >
+
+                <br><br>
+                <label for="name">Choose your color:</label>
+                <input type="color" id="color" placeholder="Choose your color">
+
+                <br><br>
+                <label for="name">Enter your date of birth:</label>
+                <input type="date" id="date" placeholder="Enter date">
+                <!--The break tag is used for creating new lines spaces-->
+                <br><br>
+                    
+                <label>Gender</label><br>
+                <input type="radio" id="male" name="male">
+                <label for="radio">male</label>
+                <input type="radio" id="female" name="female">
+                <label for="radio">female</label><br>
+               
+                <br>
+
+                <label for="name">Enter your month:</label>
+                <input type="month" id="month" placeholder="Enter date">
+                <br>
+                
+                <br>
+
+                <label for="name">Enter your date of birth:</label>
+                <input type="date" id="date" placeholder="Enter month">
+                <br>
+        
+                <br>
+
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> I have a bike</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> I have a car</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3"> I have a boat</label><br>
+                
+                <button type="button" id="button" >Submit</button>
+            <br><br>
+                
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <div class="footer">
+            <footer>
+<p>This is the footer section of my page so please let it maintain copywright.</p>
+            </footer>
+    </div>
+</body>
+</html>
